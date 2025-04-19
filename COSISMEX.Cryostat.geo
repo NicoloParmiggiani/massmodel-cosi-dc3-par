@@ -582,26 +582,40 @@ Bellville_Assem.Mother Cryostat_Interior
 Constant DetDepth {(-CryostatOuterZ - CryoLidZ - CryoBaseStageZ)-15}
 
 For Z  NLayers  { DetZPos }  {2.5660}
+
    SingleDetector.Copy SingleDetector_Copy%Z_a
    SingleDetector_Copy%Z_a.Mother Cryostat_Interior
    SingleDetector_Copy%Z_a.Rotation 0.0 0.0 180.0
    SingleDetector_Copy%Z_a.Position {DetX + DetXHalfGap} {DetY+DetYHalfGap} {$Z}
+
+   D1.Named D1_Copy%Z_a
+   D1_Copy%Z_a.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy%Z_a_D1_GeWafer
 
    SingleDetector.Copy SingleDetector_Copy%Z_b
    SingleDetector_Copy%Z_b.Mother Cryostat_Interior
    SingleDetector_Copy%Z_b.Rotation 180.0 0.0 180.0
    SingleDetector_Copy%Z_b.Position {DetX + DetXHalfGap} {-(DetY+DetYHalfGap)} {$Z}
 
+   D1.Named D1_Copy%Z_b
+   D1_Copy%Z_b.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy%Z_b_D1_GeWafer
+
    SingleDetector.Copy SingleDetector_Copy%Z_c
    SingleDetector_Copy%Z_c.Mother Cryostat_Interior
    SingleDetector_Copy%Z_c.Rotation 180.0 0.0 0.0
    SingleDetector_Copy%Z_c.Position {-DetX - DetXHalfGap} {DetY+DetYHalfGap} {$Z}
 
+   D1.Named D1_Copy%Z_c
+   D1_Copy%Z_c.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy%Z_c_D1_GeWafer
+
    SingleDetector.Copy SingleDetector_Copy%Z_d
    SingleDetector_Copy%Z_d.Mother Cryostat_Interior
    SingleDetector_Copy%Z_d.Rotation 0.0 0.0 0.0
    SingleDetector_Copy%Z_d.Position {-DetX-DetXHalfGap} {-(DetY+DetYHalfGap)} {$Z}
+
+   D1.Named D1_Copy%Z_d
+   D1_Copy%Z_d.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy%Z_d_D1_GeWafer
 Done
+
 
 
 
@@ -1031,5 +1045,3 @@ Flexure4.Mother Cryostat_Interior
 
 
 #moved the Ribbon Cable Guards to the ACS model
-
-
