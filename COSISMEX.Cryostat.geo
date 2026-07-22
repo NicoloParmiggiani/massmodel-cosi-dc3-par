@@ -605,43 +605,6 @@ For Z  NLayers  { DetZPos }  {2.5660}
 
 Done
 
-D1.Named GeD_15
-GeD_15.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy1_a_D1_GeWafer
-D1.Named GeD_14
-GeD_14.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy2_a_D1_GeWafer
-D1.Named GeD_13
-GeD_13.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy3_a_D1_GeWafer
-D1.Named GeD_12
-GeD_12.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy4_a_D1_GeWafer
-
-D1.Named GeD_11
-GeD_11.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy1_b_D1_GeWafer
-D1.Named GeD_10
-GeD_10.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy2_b_D1_GeWafer
-D1.Named GeD_9
-GeD_9.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy3_b_D1_GeWafer
-D1.Named GeD_8
-GeD_8.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy4_b_D1_GeWafer
-
-D1.Named GeD_3
-GeD_3.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy1_c_D1_GeWafer
-D1.Named GeD_2
-GeD_2.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy2_c_D1_GeWafer
-D1.Named GeD_1
-GeD_1.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy3_c_D1_GeWafer
-D1.Named GeD_0
-GeD_0.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy4_c_D1_GeWafer
-
-D1.Named GeD_7
-GeD_7.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy1_d_D1_GeWafer
-D1.Named GeD_6
-GeD_6.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy2_d_D1_GeWafer
-D1.Named GeD_5
-GeD_5.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy3_d_D1_GeWafer
-D1.Named GeD_4
-GeD_4.Assign WorldVolume.ShieldedTelescope.Telescope.Cryostat_Interior.SingleDetector_Copy4_d_D1_GeWafer
-
-
 ##########################################################
 ## IR shields
 # Updated by Alyson Joens on 03/04/23
