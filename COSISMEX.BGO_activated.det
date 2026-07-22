@@ -12,6 +12,9 @@ BGO_Coinc_bottom1.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom1.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom1.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_bottom1.Named ACS_Z0_0
+ACS_Z0_0.Assign WorldVolume.ShieldedTelescope.BGObotCrystal1_ACTIVE
+
 Voxel3D     BGO_Coinc_bottom2
 BGO_Coinc_bottom2.DetectorVolume     BGObotCrystal2_ACTIVE
 BGO_Coinc_bottom2.SensitiveVolume    BGObotCrystal2_ACTIVE
@@ -21,6 +24,9 @@ BGO_Coinc_bottom2.TriggerThreshold   80.0
 BGO_Coinc_bottom2.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom2.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom2.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_bottom2.Named ACS_Z0_1
+ACS_Z0_1.Assign WorldVolume.ShieldedTelescope.BGObotCrystal2_ACTIVE
 
 Voxel3D     BGO_Coinc_bottom3
 BGO_Coinc_bottom3.DetectorVolume     BGObotCrystal3_ACTIVE
@@ -32,6 +38,9 @@ BGO_Coinc_bottom3.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom3.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom3.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_bottom3.Named ACS_Z0_2
+ACS_Z0_2.Assign WorldVolume.ShieldedTelescope.BGObotCrystal3_ACTIVE
+
 Voxel3D     BGO_Coinc_bottom4
 BGO_Coinc_bottom4.DetectorVolume     BGObotCrystal4_ACTIVE
 BGO_Coinc_bottom4.SensitiveVolume    BGObotCrystal4_ACTIVE
@@ -41,6 +50,9 @@ BGO_Coinc_bottom4.TriggerThreshold   80.0
 BGO_Coinc_bottom4.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom4.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom4.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_bottom4.Named ACS_Z0_3
+ACS_Z0_3.Assign WorldVolume.ShieldedTelescope.BGObotCrystal4_ACTIVE
 
 Voxel3D     BGO_Coinc_bottom5
 BGO_Coinc_bottom5.DetectorVolume     BGObotCrystal5_ACTIVE
@@ -52,6 +64,9 @@ BGO_Coinc_bottom5.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom5.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom5.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_bottom5.Named ACS_Z0_4
+ACS_Z0_4.Assign WorldVolume.ShieldedTelescope.BGObotCrystal5_ACTIVE
+
 Voxel3D     BGO_Coinc_bottom6
 BGO_Coinc_bottom6.DetectorVolume     BGObotCrystal6_ACTIVE
 BGO_Coinc_bottom6.SensitiveVolume    BGObotCrystal6_ACTIVE
@@ -61,6 +76,9 @@ BGO_Coinc_bottom6.TriggerThreshold   80.0
 BGO_Coinc_bottom6.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom6.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom6.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_bottom6.Named ACS_Z1_0
+ACS_Z1_0.Assign WorldVolume.ShieldedTelescope.BGObotCrystal6_ACTIVE
 
 Voxel3D     BGO_Coinc_bottom7
 BGO_Coinc_bottom7.DetectorVolume     BGObotCrystal7_ACTIVE
@@ -72,6 +90,9 @@ BGO_Coinc_bottom7.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom7.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom7.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_bottom7.Named ACS_Z1_1
+ACS_Z1_1.Assign WorldVolume.ShieldedTelescope.BGObotCrystal7_ACTIVE
+
 Voxel3D     BGO_Coinc_bottom8
 BGO_Coinc_bottom8.DetectorVolume     BGObotCrystal8_ACTIVE
 BGO_Coinc_bottom8.SensitiveVolume    BGObotCrystal8_ACTIVE
@@ -81,6 +102,9 @@ BGO_Coinc_bottom8.TriggerThreshold   80.0
 BGO_Coinc_bottom8.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom8.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom8.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_bottom8.Named ACS_Z1_2
+ACS_Z1_2.Assign WorldVolume.ShieldedTelescope.BGObotCrystal8_ACTIVE
 
 Voxel3D     BGO_Coinc_bottom9
 BGO_Coinc_bottom9.DetectorVolume     BGObotCrystal9_ACTIVE
@@ -92,6 +116,9 @@ BGO_Coinc_bottom9.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom9.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom9.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_bottom9.Named ACS_Z1_3
+ACS_Z1_3.Assign WorldVolume.ShieldedTelescope.BGObotCrystal9_ACTIVE
+
 Voxel3D     BGO_Coinc_bottom10
 BGO_Coinc_bottom10.DetectorVolume     BGObotCrystal10_ACTIVE
 BGO_Coinc_bottom10.SensitiveVolume    BGObotCrystal10_ACTIVE
@@ -102,7 +129,8 @@ BGO_Coinc_bottom10.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_bottom10.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_bottom10.NoiseThresholdEqualsTriggerThreshold true
 
-
+BGO_Coinc_bottom10.Named ACS_Z1_4
+ACS_Z1_4.Assign WorldVolume.ShieldedTelescope.BGObotCrystal10_ACTIVE
 
 Voxel3D     BGO_Coinc_sideX
 BGO_Coinc_sideX.DetectorVolume     BGOsideX_ACTIVE
@@ -114,14 +142,14 @@ BGO_Coinc_sideX.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideX.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideX.NoiseThresholdEqualsTriggerThreshold true
 
-BGO_Coinc_sideX.Named BGO_Coinc_sideX_1
-BGO_Coinc_sideX_1.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE1
+BGO_Coinc_sideX.Named ACS_X1_0
+ACS_X1_0.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE1
 
-BGO_Coinc_sideX.Named BGO_Coinc_sideX_2
-BGO_Coinc_sideX_2.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE2
+BGO_Coinc_sideX.Named ACS_X1_1
+ACS_X1_1.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE2
 
-BGO_Coinc_sideX.Named BGO_Coinc_sideX_3
-BGO_Coinc_sideX_3.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE3
+BGO_Coinc_sideX.Named ACS_X1_2
+ACS_X1_2.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE3
 
 Voxel3D     BGO_Coinc_sideX_neg
 BGO_Coinc_sideX_neg.DetectorVolume     BGOsideXneg_ACTIVE
@@ -133,14 +161,14 @@ BGO_Coinc_sideX_neg.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideX_neg.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
 
-BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_1
-BGO_Coinc_sideX_neg_1.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE1
+BGO_Coinc_sideX_neg.Named ACS_X0_0
+ACS_X0_0.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE1
 
-BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_2
-BGO_Coinc_sideX_neg_2.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE2
+BGO_Coinc_sideX_neg.Named ACS_X1_1
+ACS_X1_1.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE2
 
-BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_3
-BGO_Coinc_sideX_neg_3.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE3
+BGO_Coinc_sideX_neg.Named ACS_X0_2
+ACS_X0_2.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE3
 
 Voxel3D     BGO_Coinc_sideY
 BGO_Coinc_sideY.DetectorVolume     BGOsideY_ACTIVE
@@ -152,14 +180,14 @@ BGO_Coinc_sideY.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideY.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideY.NoiseThresholdEqualsTriggerThreshold true
 
-BGO_Coinc_sideY.Named BGO_Coinc_sideY_1
-BGO_Coinc_sideY_1.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE1
+BGO_Coinc_sideY.Named ACS_Y1_2
+ACS_Y1_2.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE1
 
-BGO_Coinc_sideY.Named BGO_Coinc_sideY_2
-BGO_Coinc_sideY_2.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE2
+BGO_Coinc_sideY.Named ACS_Y1_1
+ACS_Y1_1.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE2
 
-BGO_Coinc_sideY.Named BGO_Coinc_sideY_3
-BGO_Coinc_sideY_3.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE3
+BGO_Coinc_sideY.Named ACS_Y1_0
+BGO_Coinc_sideY_3.ACS_Y1_0 WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE3
 
 Voxel3D     BGO_Coinc_sideY_neg
 BGO_Coinc_sideY_neg.DetectorVolume     BGOsideYneg_ACTIVE
@@ -171,14 +199,14 @@ BGO_Coinc_sideY_neg.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideY_neg.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideY_neg.NoiseThresholdEqualsTriggerThreshold true
 
-BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_1
-BGO_Coinc_sideY_neg_1.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE1
+BGO_Coinc_sideY_neg.Named ACS_Y0_2
+ACS_Y0_2.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE1
 
-BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_2
-BGO_Coinc_sideY_neg_2.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE2
+BGO_Coinc_sideY_neg.Named ACS_Y0_1
+ACS_Y0_1.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE2
 
-BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_3
-BGO_Coinc_sideY_neg_3.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE3
+BGO_Coinc_sideY_neg.Named ACS_Y0_0
+ACS_Y0_0.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE3
 
 Trigger BgoVeto_bottom1
 BgoVeto_bottom1.Veto false
