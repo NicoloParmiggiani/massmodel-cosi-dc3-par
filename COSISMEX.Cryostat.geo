@@ -582,7 +582,6 @@ Bellville_Assem.Mother Cryostat_Interior
 Constant DetDepth {(-CryostatOuterZ - CryoLidZ - CryoBaseStageZ)-15}
 
 For Z  NLayers  { DetZPos }  {2.5660}
-
    SingleDetector.Copy SingleDetector_Copy%Z_a
    SingleDetector_Copy%Z_a.Mother Cryostat_Interior
    SingleDetector_Copy%Z_a.Rotation 0.0 0.0 180.0
@@ -602,8 +601,10 @@ For Z  NLayers  { DetZPos }  {2.5660}
    SingleDetector_Copy%Z_d.Mother Cryostat_Interior
    SingleDetector_Copy%Z_d.Rotation 0.0 0.0 0.0
    SingleDetector_Copy%Z_d.Position {-DetX-DetXHalfGap} {-(DetY+DetYHalfGap)} {$Z}
-
 Done
+
+
+
 
 ##########################################################
 ## IR shields
@@ -1030,3 +1031,5 @@ Flexure4.Mother Cryostat_Interior
 
 
 #moved the Ribbon Cable Guards to the ACS model
+
+
