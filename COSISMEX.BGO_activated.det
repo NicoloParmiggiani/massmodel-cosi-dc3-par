@@ -135,8 +135,8 @@ BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
 BGO_Coinc_sideX_neg.Named ACS_X0_0
 ACS_X0_0.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE1
 
-BGO_Coinc_sideX_neg.Named ACS_X1_1
-ACS_X1_1.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE2
+BGO_Coinc_sideX_neg.Named ACS_X0_1
+ACS_X0_1.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE2
 
 BGO_Coinc_sideX_neg.Named ACS_X0_2
 ACS_X0_2.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE3
@@ -158,7 +158,7 @@ BGO_Coinc_sideY.Named ACS_Y1_1
 ACS_Y1_1.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE2
 
 BGO_Coinc_sideY.Named ACS_Y1_0
-BGO_Coinc_sideY_3.ACS_Y1_0 WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE3
+ACS_Y1_0.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE3
 
 Voxel3D     BGO_Coinc_sideY_neg
 BGO_Coinc_sideY_neg.DetectorVolume     BGOsideYneg_ACTIVE
